@@ -44,7 +44,7 @@ def imprimir_atleta(atleta):
     print(f"Data:\t\t{atleta['dataNascimento'].strftime('%d/%m/%Y')}")
     print(f"Tutor:\t\t{atleta['tutor']}")
 
-meu_bixinho = ler_atleta()
-meu_outro_bixinho = ler_atleta()
-imprimir_atleta(meu_bixinho)
-imprimir_atleta(meu_outro_bixinho)
+meu_atleta = ler_atleta()
+meu_outro_atleta = ler_atleta()
+imprimir_atleta(meu_atleta)
+imprimir_atleta(meu_outro_atleta)
